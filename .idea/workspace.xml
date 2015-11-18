@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59f5a1e7-e078-4e6d-8acc-bf548f7ebf40" name="Default" comment="search websit">
+    <list default="true" id="59f5a1e7-e078-4e6d-8acc-bf548f7ebf40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python.iws" />
@@ -361,7 +361,11 @@
       <created>1447857844910</created>
       <updated>1447857844910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="search websit">
+      <created>1447857968303</created>
+      <updated>1447857968303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
