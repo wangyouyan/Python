@@ -3,6 +3,8 @@
 #Author:Rain Wang
 #E-mail:wyyservice@gmail.com
 
+"""实现堡垒机模式下的远程文件上传"""
+
 import paramiko
 import os,sys,time
 

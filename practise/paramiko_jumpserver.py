@@ -3,6 +3,10 @@
 #Author:Rain Wang
 #E-mail:wyyservice@gmail.com
 
+'''
+实现堡垒机模式下的远程命令执行
+'''
+
 import paramiko
 import os,sys,time
 
