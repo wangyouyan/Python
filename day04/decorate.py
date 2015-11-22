@@ -23,6 +23,10 @@ def f1():
     print "f1 函数"
 
 #函数2
+@auth
 def f2():
     print "f2 函数"
+
+
+
 
