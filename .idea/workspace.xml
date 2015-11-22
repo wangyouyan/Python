@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f5a1e7-e078-4e6d-8acc-bf548f7ebf40" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practise/paramiko_jumpserver.py" afterPath="$PROJECT_DIR$/practise/paramiko_jumpserver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practise/paramiko_uploadfiles.py" afterPath="$PROJECT_DIR$/practise/paramiko_uploadfiles.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day02/.test.py.swp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day03/alter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day04/decorate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day03/file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day01/format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day03/func.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day01/hello.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day01/hello_cn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day01/module.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day03/sendmail.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day03/seprate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day01/string.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day02/tab.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day04/1" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python.iws" />
@@ -16,7 +28,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Python$decorate.coverage" NAME="decorate Coverage Results" MODIFIED="1448162399554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python$nmap_port.coverage" NAME="nmap-port Coverage Results" MODIFIED="1447938712754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
+    <SUITE FILE_PATH="coverage/Python$1.coverage" NAME="1 Coverage Results" MODIFIED="1448163560078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/Python$paramiko_jumpserver.coverage" NAME="paramiko_jumpserver Coverage Results" MODIFIED="1447942995489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -31,107 +45,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="diff_nginxfiles.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/diff_nginxfiles.py">
+      <file leaf-file-name="decorate.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day04/decorate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="600">
-              <folding>
-                <marker date="1447854357000" expanded="true" signature="314:550" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendmail.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/sendmail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="510">
+            <state line="26" column="17" selection-start="505" selection-end="505" vertical-scroll-proportion="0.59012014" vertical-offset="0" max-vertical-offset="749">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendmail-advance.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/sendmail-advance.py">
+      <file leaf-file-name="require.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day04/require.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_website.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/search_website.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="9" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="885">
-              <folding>
-                <element signature="e#92#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nmap-port.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/nmap-port.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="42" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="735">
-              <folding>
-                <marker date="1447938712000" expanded="true" signature="92:114" placeholder="import ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ssh_login.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/ssh_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pxssh.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/pxssh.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="16" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-              <folding>
-                <element signature="e#92#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paramiko_RSAKey.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/paramiko_RSAKey.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <folding>
-                <element signature="e#92#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paramiko_jumpserver.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practise/paramiko_jumpserver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="15" selection-start="111" selection-end="111" vertical-scroll-proportion="0.19148937" vertical-offset="0" max-vertical-offset="1155">
-              <folding>
-                <element signature="e#117#132#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="paramiko_uploadfiles.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practise/paramiko_uploadfiles.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-              <folding>
-                <element signature="e#115#130#0" expanded="true" />
-              </folding>
-            </state>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -159,13 +90,14 @@
         <option value="$PROJECT_DIR$/practise/paramiko_RSAKey.py" />
         <option value="$PROJECT_DIR$/practise/paramiko_uploadfiles.py" />
         <option value="$PROJECT_DIR$/practise/paramiko_jumpserver.py" />
+        <option value="$PROJECT_DIR$/day04/decorate.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="23" />
-    <option name="width" value="1396" />
+    <option name="x" value="40" />
+    <option name="y" value="50" />
+    <option name="width" value="1414" />
     <option name="height" value="869" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -194,7 +126,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,22 +144,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +162,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.paramiko_jumpserver">
+  <component name="RunManager" selected="Python.1">
     <configuration default="false" name="nmap-port" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,6 +196,44 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/paramiko_jumpserver.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="decorate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day04/decorate.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day04" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day04/1" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -367,6 +323,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,9 +347,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -433,14 +389,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.nmap-port" />
       <item index="1" class="java.lang.String" itemvalue="Python.paramiko_jumpserver" />
+      <item index="2" class="java.lang.String" itemvalue="Python.decorate" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.paramiko_jumpserver" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nmap-port" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.decorate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.paramiko_jumpserver" />
+        <item index="3" class="java.lang.String" itemvalue="Python.nmap-port" />
       </list>
     </recent_temporary>
   </component>
@@ -484,12 +444,20 @@
       <created>1447944152256</created>
       <updated>1447944152256</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="I mainly commit the paramiko_jumpserver,paramiko_RSAKey,&#10;uploadfiles,pxssh,ssh_login">
+      <created>1447944259827</created>
+      <updated>1447944259827</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I mainly commit the paramiko_jumpserver,paramiko_RSAKey,&#10;uploadfiles,pxssh,ssh_login">
+      <created>1448156441568</created>
+      <updated>1448156441568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1396" height="869" extended-state="0" />
-    <editor active="true" />
+    <frame x="40" y="50" width="1414" height="869" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -497,19 +465,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2533235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25364432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -533,19 +501,91 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practise/difflib.py">
+    <entry file="file://$PROJECT_DIR$/practise/diff_nginxfiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+        <state line="19" column="45" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/sendmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/sendmail-advance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/search_website.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="9" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/nmap-port.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="42" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="735">
+          <folding>
+            <element signature="e#92#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/ssh_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/pxssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/paramiko_RSAKey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/paramiko_jumpserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1155">
+          <folding>
+            <element signature="e#117#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/paramiko_uploadfiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="21" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1170">
+          <folding>
+            <element signature="e#115#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/difflib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="21" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practise/diff_nginxfiles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="45" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="600">
-          <folding>
-            <marker date="1447854357000" expanded="true" signature="314:550" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,25 +606,19 @@
     <entry file="file://$PROJECT_DIR$/practise/search_website.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="9" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="885">
-          <folding>
-            <element signature="e#92#105#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practise/difflib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
+        <state line="20" column="21" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practise/diff_nginxfiles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="45" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding>
-            <marker date="1447854357000" expanded="true" signature="314:550" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -595,34 +629,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practise/sendmail-advance.py">
+    <entry file="file://$PROJECT_DIR$/practise/paramiko_RSAKey.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/search_website.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="9" selection-start="1537" selection-end="1537" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="885">
-          <folding>
-            <element signature="e#92#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/nmap-port.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="42" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="735">
-          <folding>
-            <marker date="1447938712000" expanded="true" signature="92:114" placeholder="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/ssh_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="23" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
@@ -630,36 +639,72 @@
     <entry file="file://$PROJECT_DIR$/practise/pxssh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="16" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/paramiko_jumpserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="15" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
           <folding>
-            <element signature="e#92#104#0" expanded="true" />
+            <element signature="e#117#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practise/paramiko_RSAKey.py">
+    <entry file="file://$PROJECT_DIR$/practise/sendmail-advance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="5" column="5" selection-start="97" selection-end="97" vertical-scroll-proportion="0.10013351" vertical-offset="0" max-vertical-offset="749">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/search_website.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="9" selection-start="1537" selection-end="1537" vertical-scroll-proportion="1.0213618" vertical-offset="0" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/nmap-port.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="239" selection-end="239" vertical-scroll-proportion="0.22029373" vertical-offset="0" max-vertical-offset="749">
           <folding>
-            <element signature="e#92#107#0" expanded="true" />
+            <element signature="e#92#102#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/ssh_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="403" selection-end="403" vertical-scroll-proportion="0.38050735" vertical-offset="0" max-vertical-offset="749">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practise/paramiko_uploadfiles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+        <state line="39" column="9" selection-start="975" selection-end="975" vertical-scroll-proportion="0.21895862" vertical-offset="421" max-vertical-offset="1170">
           <folding>
             <element signature="e#115#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practise/paramiko_jumpserver.py">
+    <entry file="file://$PROJECT_DIR$/day04/require.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="111" selection-end="111" vertical-scroll-proportion="0.19148937" vertical-offset="0" max-vertical-offset="1155">
-          <folding>
-            <element signature="e#117#132#0" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day04/decorate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="505" selection-end="505" vertical-scroll-proportion="0.59012014" vertical-offset="0" max-vertical-offset="749">
+          <folding />
         </state>
       </provider>
     </entry>
