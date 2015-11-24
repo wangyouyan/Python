@@ -13,7 +13,7 @@ def login():
     num = hmac.new('openstack')
     num.update('6222020200076156252')
     passwd = hmac.new('che001')
-    passwd.update('131988')
+    passwd.update('123456')
     cardNum = raw_input('卡号:')
     cardnum = hmac.new('openstack')
     cardnum.update(cardNum)
