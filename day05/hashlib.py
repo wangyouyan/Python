@@ -20,3 +20,5 @@ print hash.hexdigest() """
 
 import hmac
 
+GRANT ALL PRIVILEGES ON *.* TO 'otomat'@'localhost' IDENTIFIED BY 'che001' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'otomat'@'%' IDENTIFIED BY 'che001' WITH GRANT OPTION;

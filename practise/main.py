@@ -20,7 +20,8 @@ def login():
     encryption_password = hmac.new('che001')
     encryption_password.update(user_pwd)
     #Verify if the cardnum or password is correct
-    if cardnum.digest() == encryption_cardnum.digest() and pwd.digest() == encryption_password.digest():
-        print('欢迎登录中国工商银行信用卡中心')
-    else:
-        print('无效的密码')
+    for i in xrange(1,3):
+        if cardnum.digest() == encryption_cardnum.digest() and pwd.digest() == encryption_password.digest():
+            print('欢迎登录中国工商银行信用卡中心')
+        else:
+            print('无效的密码')
