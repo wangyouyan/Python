@@ -5,5 +5,8 @@
 
 import os,sys
 import Authentication
+import db
 
-Authentication.Register()
+#Authentication.Register()
+
+db.DBconnection.connect()

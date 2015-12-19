@@ -3,28 +3,29 @@
 #Author:Rain Wang
 #E-mail:wyyservice@gmail.com
 
-import socket
+"""
+File Client codes
+"""
 
-ip_port = ('10.10.1.225','8009')
-sk = socket.socket()
-sk.connect(ip_port)
-sk.settimeout(10)
+import socket,time
+
+HOST = '127.0.0.1'
+PORT = 8009
+s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.connect((HOST,PORT))
 
 while True:
-    inp = raw_input('Please input command:')
-    sk.sendall(inp)
-    res_size = sk.recv(1024)
-    print "Received the data size:",res_size,type(res_size)
-    total_size = 0
-    while True:
-        data = sk.recv(1024)
-        received_size += len(data)
-        print('---------data-----------')
-        if total_size == received_size:
-            print data
-            print('------data-----')
-            break
-        print data
-        if inp == 'exit':
-            break
-    sk.close()
+    cmd = raw_input('Please input command:').strip()
+    if len(cmd) == 0:continue
+    s.sendall(cmd)
+    if cmd.split()[0] == 'get':
+        with open(cmd.split()[1],'wb') as f:
+            while True:
+                data = s.recv(1024)
+                if data == "FileTransferDone":
+                    break
+                f.write(s.recv(1024))
+        continue
+    else:
+        print s.recv(1024)
+s.close()
