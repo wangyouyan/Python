@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f5a1e7-e078-4e6d-8acc-bf548f7ebf40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPServer/bin/FTPServer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/Mem.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/Muti_Threading.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/Queue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/Redis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/RedisHelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/Muti_Threading/Threading.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPClient/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPClient/bin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPClient/conf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPClient/core/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPClient/var/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPServer/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPServer/bin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPServer/conf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPServer/modules/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day09/FTPServer/var/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/event/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/client.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/consumer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/direct-consumer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/direct-product.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/event/event_drive.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/interface.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/mutil_process.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/mutil_threading.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day11/paramiko.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/product.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/publisher.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/select.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day10/server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/sqlalchemy-cli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day12/subscribe.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/SQLALchemy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/SQLALchemy/index.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python.iws" />
@@ -62,7 +26,7 @@
     <SUITE FILE_PATH="coverage/Python$subscribe.coverage" NAME="subscribe Coverage Results" MODIFIED="1453003133412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
     <SUITE FILE_PATH="coverage/Python$recurrence_digui.coverage" NAME="recurrence_digui Coverage Results" MODIFIED="1448185095108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python$shopping_mall.coverage" NAME="shopping_mall Coverage Results" MODIFIED="1448762780975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
-    <SUITE FILE_PATH="coverage/Python$index.coverage" NAME="index Coverage Results" MODIFIED="1452396391543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
+    <SUITE FILE_PATH="coverage/Python$index.coverage" NAME="index Coverage Results" MODIFIED="1453042328965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise/SQLALchemy" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1448762927427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise/modules" />
     <SUITE FILE_PATH="coverage/Python$random__1_.coverage" NAME="random (1) Coverage Results" MODIFIED="1449383836525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python$json_example.coverage" NAME="json_example Coverage Results" MODIFIED="1448768406317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
@@ -188,10 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="direct-consumer.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="direct-consumer.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day12/direct-consumer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.10951009" vertical-offset="0" max-vertical-offset="694">
+            <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
               <folding>
                 <element signature="e#92#103#0" expanded="true" />
               </folding>
@@ -199,11 +163,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscribe.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/subscribe.py">
+      <file leaf-file-name="index.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practise/SQLALchemy/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="342">
-              <folding />
+            <state line="20" column="1" selection-start="752" selection-end="752" vertical-scroll-proportion="1.1135857" vertical-offset="0" max-vertical-offset="650">
+              <folding>
+                <marker date="1453042474000" expanded="true" signature="247:386" placeholder="insert into ..." />
+                <marker date="1453042474000" expanded="true" signature="415:581" placeholder="insert into ..." />
+                <marker date="1453042474000" expanded="true" signature="415:517" placeholder="insert into ..." />
+                <marker date="1453042474000" expanded="true" signature="674:701" placeholder="select * fro..shopping_mall..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -250,6 +219,7 @@
         <option value="$PROJECT_DIR$/day12/consumer.py" />
         <option value="$PROJECT_DIR$/day12/direct-product.py" />
         <option value="$PROJECT_DIR$/day12/direct-consumer.py" />
+        <option value="$PROJECT_DIR$/practise/SQLALchemy/index.py" />
       </list>
     </option>
   </component>
@@ -259,6 +229,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-23" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
@@ -347,7 +318,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="day12" />
+              <option name="myItemId" value="practise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQLALchemy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,24 +358,7 @@
       <recent name="$PROJECT_DIR$/practise/Creditcard" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.product">
-    <configuration default="false" name="paramiko" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11/paramiko.py" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.index">
     <configuration default="false" name="subscribe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -472,6 +430,25 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/product.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practise/SQLALchemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/SQLALchemy/index.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -648,19 +625,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Client" />
-      <item index="1" class="java.lang.String" itemvalue="Python.paramiko" />
-      <item index="2" class="java.lang.String" itemvalue="Python.subscribe" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
-      <item index="4" class="java.lang.String" itemvalue="Python.consumer" />
-      <item index="5" class="java.lang.String" itemvalue="Python.product" />
+      <item index="1" class="java.lang.String" itemvalue="Python.subscribe" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
+      <item index="3" class="java.lang.String" itemvalue="Python.consumer" />
+      <item index="4" class="java.lang.String" itemvalue="Python.product" />
+      <item index="5" class="java.lang.String" itemvalue="Python.index" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.consumer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.product" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
-        <item index="3" class="java.lang.String" itemvalue="Python.subscribe" />
-        <item index="4" class="java.lang.String" itemvalue="Python.paramiko" />
+        <item index="0" class="java.lang.String" itemvalue="Python.index" />
+        <item index="1" class="java.lang.String" itemvalue="Python.consumer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.product" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
+        <item index="4" class="java.lang.String" itemvalue="Python.subscribe" />
       </list>
     </recent_temporary>
   </component>
@@ -750,7 +727,11 @@
       <created>1450535461723</created>
       <updated>1450535461723</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="The homework was Complete basically!!!">
+      <created>1453041127649</created>
+      <updated>1453041127649</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -774,9 +755,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="false" />
+    <frame x="-23" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.72796935" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -786,13 +768,12 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39875388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30810094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30810094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -827,11 +808,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day07/static-class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day06/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -1101,9 +1077,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day12/direct-consumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.10951009" vertical-offset="0" max-vertical-offset="694">
+        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
           <folding>
             <element signature="e#92#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/SQLALchemy/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="752" selection-end="752" vertical-scroll-proportion="1.1135857" vertical-offset="0" max-vertical-offset="650">
+          <folding>
+            <marker date="1453042474000" expanded="true" signature="247:386" placeholder="insert into ..." />
+            <marker date="1453042474000" expanded="true" signature="415:581" placeholder="insert into ..." />
+            <marker date="1453042474000" expanded="true" signature="415:517" placeholder="insert into ..." />
+            <marker date="1453042474000" expanded="true" signature="674:701" placeholder="select * fro..shopping_mall..." />
           </folding>
         </state>
       </provider>
