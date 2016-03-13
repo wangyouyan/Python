@@ -1,0 +1,20 @@
+{% load xx %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <h2>{{ name }}</h2>
+    <h2>{{ age }}</h2>
+    <ul>
+    {% for item in user_list %}
+        <li>{{ item }},{{ forloop.first }}</li>
+    {% endfor %}
+    {{ name|lower }}
+    </ul>
+    {% my_simple_time 1 2 3%}
+    {% my_input 'id_username' 'hide'%}
+</body>
+</html>

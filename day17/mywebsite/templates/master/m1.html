@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/commons.css"/>
+    {% block css %} {% endblock %}
+</head>
+<body>
+    <div class="header">LOGO</div>
+    <div class="body">
+        <div class="menu">左侧菜单</div>
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    <script type="text/javascript">
+
+    </script>
+    {% block js %} {% endblock %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+.header{
+    height: 48px;
+    background-color: red;
+}
+.body{
+    background-color: #dddddd;
+}
+.body .menu{
+    background-color: green;
+    float: left;
+    width: 20%;
+
+}
+.body .content{
+    background-color:darkslategray;
+    float: left;
+    width: 70%;
+}

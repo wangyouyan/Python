@@ -1,9 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59f5a1e7-e078-4e6d-8acc-bf548f7ebf40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/SQLALchemy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practise/SQLALchemy/index.py" />
+    <list default="true" id="59f5a1e7-e078-4e6d-8acc-bf548f7ebf40" name="Default" comment="item operation for sqlalchemy!">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/S11day17_django.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/mywebsite.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/Note-class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/Otomat.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/dictionaries/Rain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/backend/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/button_click.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/css/commons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/cpu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/cs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/css.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/day17.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/dom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/js/edit_row.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/js/edit_row_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/floating.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/htmlbody.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/master/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/index.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/index.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/include/input_group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/j1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/js/jquery-1.8.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/js/jquery-2.1.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/js/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/load.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/margin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/memory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/monitor_client.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/overflow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/plugin_api.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/include/sb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/son1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/backend/sqlhelper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/dictionaries/wupeiqi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/templatetags/xx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day13/index.html" afterPath="$PROJECT_DIR$/day13/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python.iws" />
@@ -45,6 +185,7 @@
     <SUITE FILE_PATH="coverage/Python$Authentication.coverage" NAME="Authentication Coverage Results" MODIFIED="1450433857464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08/homework" />
     <SUITE FILE_PATH="coverage/Python$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1448768413910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python$Derate_andvance.coverage" NAME="Derate_andvance Coverage Results" MODIFIED="1448177431108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
+    <SUITE FILE_PATH="coverage/Python$sqlalchemy_item.coverage" NAME="sqlalchemy-item Coverage Results" MODIFIED="1453615586540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise/SQLALchemy" />
     <SUITE FILE_PATH="coverage/Python$register.coverage" NAME="register Coverage Results" MODIFIED="1448709088900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/practise" />
     <SUITE FILE_PATH="coverage/Python$Server.coverage" NAME="Server Coverage Results" MODIFIED="1450534917476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08/homework" />
     <SUITE FILE_PATH="coverage/Python$Re.coverage" NAME="Re Coverage Results" MODIFIED="1448791152782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
@@ -85,102 +226,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Mem.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/Mem.py">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="342">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="266">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Redis.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/Redis.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="361">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publisher.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/publisher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="266">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlalchemy-cli.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/sqlalchemy-cli.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="589">
+            <state line="29" column="80" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
               <folding>
-                <marker date="1453013685000" expanded="true" signature="302:369" placeholder="INSERT INTO ..." />
-                <marker date="1453013685000" expanded="true" signature="434:441" placeholder="select 8 fro..." />
-                <marker date="1453013685000" expanded="true" signature="434:461" placeholder="select * fro..shopping_mall..." />
+                <element signature="e#15#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/product.py">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="475">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consumer.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/consumer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="direct-product.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/direct-product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="25" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="817">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="direct-consumer.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/direct-consumer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+            <state line="7" column="41" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
               <folding>
-                <element signature="e#92#103#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practise/SQLALchemy/index.py">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="752" selection-end="752" vertical-scroll-proportion="1.1135857" vertical-offset="0" max-vertical-offset="650">
+            <state line="4" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="10" selection-start="1140" selection-end="1140" vertical-scroll-proportion="1.3636364" vertical-offset="0" max-vertical-offset="798">
               <folding>
-                <marker date="1453042474000" expanded="true" signature="247:386" placeholder="insert into ..." />
-                <marker date="1453042474000" expanded="true" signature="415:581" placeholder="insert into ..." />
-                <marker date="1453042474000" expanded="true" signature="415:517" placeholder="insert into ..." />
-                <marker date="1453042474000" expanded="true" signature="674:701" placeholder="select * fro..shopping_mall..." />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisHelper.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day12/RedisHelper.py">
+      <file leaf-file-name="m1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="551">
+            <state line="5" column="56" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="son1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/son1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="14" selection-start="195" selection-end="195" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commons.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/static/css/commons.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="1" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input_group.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/input_group.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="209">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sb.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/sb.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="133">
               <folding />
             </state>
           </provider>
@@ -206,9 +342,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/day12/memcache.py" />
-        <option value="$PROJECT_DIR$/day12/redis.py" />
-        <option value="$PROJECT_DIR$/day12/Mem.py" />
         <option value="$PROJECT_DIR$/day12/Redis.py" />
         <option value="$PROJECT_DIR$/day12/publisher.py" />
         <option value="$PROJECT_DIR$/day12/subscribe.py" />
@@ -220,6 +353,46 @@
         <option value="$PROJECT_DIR$/day12/direct-product.py" />
         <option value="$PROJECT_DIR$/day12/direct-consumer.py" />
         <option value="$PROJECT_DIR$/practise/SQLALchemy/index.py" />
+        <option value="$PROJECT_DIR$/practise/SQLALchemy/sqlalchemy-item.py" />
+        <option value="$PROJECT_DIR$/monitor_client/plugins/cpu.py" />
+        <option value="$PROJECT_DIR$/day13/index.html" />
+        <option value="$PROJECT_DIR$/day13/index.coffee" />
+        <option value="$PROJECT_DIR$/day13/css.coffee" />
+        <option value="$PROJECT_DIR$/day13/cs.html" />
+        <option value="$PROJECT_DIR$/day14/Note-class" />
+        <option value="$PROJECT_DIR$/day14/CSS/htmlbody.html" />
+        <option value="$PROJECT_DIR$/day14/CSS/index.html" />
+        <option value="$PROJECT_DIR$/day14/CSS/margin.html" />
+        <option value="$PROJECT_DIR$/day14/CSS/position.html" />
+        <option value="$PROJECT_DIR$/day14/CSS/floating.html" />
+        <option value="$PROJECT_DIR$/day14/CSS/overflow.html" />
+        <option value="$PROJECT_DIR$/day14/javascript/j1.js" />
+        <option value="$PROJECT_DIR$/day14/javascript/js.html" />
+        <option value="$PROJECT_DIR$/day14/javascript/dom.html" />
+        <option value="$PROJECT_DIR$/day14/javascript/button_click.html" />
+        <option value="$PROJECT_DIR$/day16/edit_row/js/edit_row.js" />
+        <option value="$PROJECT_DIR$/day16/edit_row/index.html" />
+        <option value="$PROJECT_DIR$/day17/index.py" />
+        <option value="$PROJECT_DIR$/day17/index.html" />
+        <option value="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/urls.py" />
+        <option value="$PROJECT_DIR$/day17/S11day17_django/templates/login.html" />
+        <option value="$PROJECT_DIR$/day17/S11day17_django/app01/views.py" />
+        <option value="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/settings.py" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/app01/templatetags/xx.py" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/templates/home.html" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/templates/include/input_group.html" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/templates/include/sb.html" />
+        <option value="$PROJECT_DIR$/day17/static/css/commons.coffee" />
+        <option value="$PROJECT_DIR$/day17/static/css/commons.css" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/templates/son1.html" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/templates/master/index.html" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/mywebsite/settings.py" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/mywebsite/urls.py" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/templates/master/login.html" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/app01/models.py" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/app01/admin.py" />
+        <option value="$PROJECT_DIR$/day17/mywebsite/app01/views.py" />
       </list>
     </option>
   </component>
@@ -229,9 +402,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-23" />
+    <option name="x" value="9" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1431" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -276,6 +449,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,41 +468,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SQLALchemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -339,11 +480,14 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistory" value="show line&#10;show" />
+    <property name="SearchEverywhereHistory" value="&#10;show line&#10;show" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day17" />
     <property name="SearchEverywhereHistoryKey" value="show lin&#9;null&#9;null&#10;show line &#9;null&#9;null" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -352,32 +496,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day16/edit_row/js" />
       <recent name="C:\Users\Administrator\PycharmProjects\Python\day08\homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/practise/Creditcard" />
+      <recent name="$PROJECT_DIR$/day17/mywebsite/templates" />
+      <recent name="$PROJECT_DIR$/day17/mywebsite/static/plugins" />
+      <recent name="$PROJECT_DIR$/day17/mywebsite" />
+      <recent name="$PROJECT_DIR$/day17/S11day17_django/templates" />
+      <recent name="$PROJECT_DIR$/day17/S11day17_django/app01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.index">
-    <configuration default="false" name="subscribe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day12/subscribe.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Django server.mywebsite">
     <configuration default="false" name="sqlalchemy-cli" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -449,6 +579,25 @@
       <module name="Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/SQLALchemy/index.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sqlalchemy-item" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practise/SQLALchemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practise/SQLALchemy/sqlalchemy-item.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -538,6 +687,29 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
@@ -604,6 +776,29 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="mywebsite" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mywebsite" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8090" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://0.0.0.0:8090/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
     <configuration default="false" name="Client" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -623,21 +818,22 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Python.Client" />
-      <item index="1" class="java.lang.String" itemvalue="Python.subscribe" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Django server.mywebsite" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Client" />
       <item index="2" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
       <item index="3" class="java.lang.String" itemvalue="Python.consumer" />
       <item index="4" class="java.lang.String" itemvalue="Python.product" />
       <item index="5" class="java.lang.String" itemvalue="Python.index" />
+      <item index="6" class="java.lang.String" itemvalue="Python.sqlalchemy-item" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.index" />
-        <item index="1" class="java.lang.String" itemvalue="Python.consumer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.product" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
-        <item index="4" class="java.lang.String" itemvalue="Python.subscribe" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sqlalchemy-item" />
+        <item index="1" class="java.lang.String" itemvalue="Python.index" />
+        <item index="2" class="java.lang.String" itemvalue="Python.consumer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.product" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
       </list>
     </recent_temporary>
   </component>
@@ -731,10 +927,22 @@
       <created>1453041127649</created>
       <updated>1453041127649</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="This chapter is mainly introduced the sqlalchemy usage!">
+      <created>1453042509429</created>
+      <updated>1453042509429</updated>
+    </task>
+    <task id="LOCAL-00018" summary="item operation for sqlalchemy!">
+      <created>1453043408492</created>
+      <updated>1453043408492</updated>
+    </task>
+    <task id="LOCAL-00019" summary="item operation for sqlalchemy!">
+      <created>1453622095483</created>
+      <updated>1453622095483</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -755,29 +963,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-23" y="23" width="1440" height="873" extended-state="0" />
-    <editor active="true" />
+    <frame x="9" y="23" width="1431" height="873" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.72796935" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23060344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="420" y="96" width="240" height="731" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21475054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="420" y="96" width="240" height="731" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39875388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30810094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.124834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -800,7 +1008,9 @@
     <MESSAGE value="Developed some codes about Class" />
     <MESSAGE value="Commit the local file to Github for homework" />
     <MESSAGE value="The homework was Complete basically!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="The homework was Complete basically!!!" />
+    <MESSAGE value="This chapter is mainly introduced the sqlalchemy usage!" />
+    <MESSAGE value="item operation for sqlalchemy!" />
+    <option name="LAST_COMMIT_MESSAGE" value="item operation for sqlalchemy!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -808,290 +1018,307 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day06/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/Re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/logging_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/Exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/fanshe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/Socket_Demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/webdemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/nmap-port.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/homework/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/homework/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/homework/Authentication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/homework/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/homework/Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/SingleInstance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08/homework/Server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/FTPServer/bin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/FTPServer/bin/FTPServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/Muti_Threading/Threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/event/event_drive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/mutil_threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/mutil_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/Muti_Threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11/paramiko.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/search_website.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/sendmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/sendmail-advance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/paramiko_uploadfiles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/paramiko_RSAKey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/paramiko_jumpserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/subscribe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/RedisHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/Mem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/Redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/publisher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/sqlalchemy-cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding>
-            <marker date="1453013685000" expanded="true" signature="302:369" placeholder="INSERT INTO ..." />
-            <marker date="1453013685000" expanded="true" signature="434:441" placeholder="select 8 fro..." />
-            <marker date="1453013685000" expanded="true" signature="434:461" placeholder="select * fro..shopping_mall..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day12/direct-product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="25" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day12/direct-consumer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
-          <folding>
-            <element signature="e#92#103#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practise/SQLALchemy/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="752" selection-end="752" vertical-scroll-proportion="1.1135857" vertical-offset="0" max-vertical-offset="650">
+        <state line="20" column="1" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/backend/sqlhelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/css.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/cs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="320" selection-end="320" vertical-scroll-proportion="0.484985" vertical-offset="0" max-vertical-offset="666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day13/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="0" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.34199134" vertical-offset="2157" max-vertical-offset="2850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/cpu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.63245493" vertical-offset="0" max-vertical-offset="721" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/memory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/plugin_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/Note-class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/CSS/htmlbody.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/CSS/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/CSS/margin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/CSS/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/javascript/j1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/CSS/floating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.24675325" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/CSS/overflow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="51" selection-start="892" selection-end="892" vertical-scroll-proportion="1.2063493" vertical-offset="0" max-vertical-offset="1045" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/javascript/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="138" selection-end="138" vertical-scroll-proportion="0.21933623" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/javascript/dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="34" selection-start="340" selection-end="340" vertical-scroll-proportion="0.3015873" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14/javascript/button_click.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.43867245" vertical-offset="0" max-vertical-offset="722" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/edit_row/js/jquery-1.8.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.48305085" vertical-offset="0" max-vertical-offset="708" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor_client/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/SQLALchemy/sqlalchemy-item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="355" selection-end="355" vertical-scroll-proportion="0.31622747" vertical-offset="0" max-vertical-offset="721" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/edit_row/js/edit_row.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="2376" selection-end="2376" vertical-scroll-proportion="0.0" vertical-offset="1103" max-vertical-offset="1824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/edit_row/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="9" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/edit_row/js/edit_row_bak.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="5" selection-start="2366" selection-end="2366" vertical-scroll-proportion="0.5852982" vertical-offset="1079" max-vertical-offset="1824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practise/paramiko_jumpserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1444" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="132" selection-end="132" vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.13176145" vertical-offset="0" max-vertical-offset="721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/S11day17_django/S11day17_django/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <folding>
-            <marker date="1453042474000" expanded="true" signature="247:386" placeholder="insert into ..." />
-            <marker date="1453042474000" expanded="true" signature="415:581" placeholder="insert into ..." />
-            <marker date="1453042474000" expanded="true" signature="415:517" placeholder="insert into ..." />
-            <marker date="1453042474000" expanded="true" signature="674:701" placeholder="select * fro..shopping_mall..." />
+            <element signature="e#704#736#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/S11day17_django/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/S11day17_django/S11day17_django/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="5" selection-start="3239" selection-end="3239" vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="2527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/S11day17_django/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.3015873" vertical-offset="0" max-vertical-offset="693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/templatetags/xx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding>
+            <element signature="e#92#119#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="277" selection-end="277" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/input_group.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/sb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="133">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/son1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="195" selection-end="195" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/static/css/commons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="1" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="56" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/mywebsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="44" selection-start="431" selection-end="431" vertical-scroll-proportion="0.41394335" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/mywebsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="27" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.8765432" vertical-offset="657" max-vertical-offset="2489">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="41" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="80" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
+          <folding>
+            <element signature="e#15#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="10" selection-start="1140" selection-end="1140" vertical-scroll-proportion="1.3636364" vertical-offset="0" max-vertical-offset="798">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

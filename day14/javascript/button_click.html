@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        .r{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="11">
+    123
+</div>
+<a>asdfghjkl</a>
+
+<input type="button" ondblclick="edit();" value="修改" />
+<input type="button" onclick="rollback();" value="恢复" />
+
+<script type="text/javascript" src="j1.js"></script>
+<script type="text/javascript">
+    function edit(){
+        var i = document.getElementById('11');
+        i.className = "r";
+    }
+    function rollback(){
+        var i = document.getElementById('11');
+        i.className = "";
+    }
+</script>
+</body>
+</html>
