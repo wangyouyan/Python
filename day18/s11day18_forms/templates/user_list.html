@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <form action="/user_list/" method="post">
+        <p>主机: {{ obj.host }} <span>{{ errors.host }}</span></p>
+        <p>主机: {{ obj.port }} <span>{{ errors.port }}</span></p>
+        <p>主机: {{ obj.email }} <span>{{ errors.email }}</span></p>
+        <p>主机: {{ obj.mobile }} <span>{{ errors.mobile }}</span></p>
+
+        <input type="submit" value="submit" />
+    </form>
+    <input type="button" onclick="AjaxSubmit;" value="Ajax提交" />
+    <script src="/static/jquery-2.1.4.js">
+        function AjaxSubmit(){
+            var host = "1.1.1.1";
+            var port = "9999";
+            $ajax({
+                url: "/ajax_data/",
+                type: "POST",
+                data: {h:host,p:port}
+                success: function(arg){
+
+                }
+            });
+        }
+        function AjaxSubmitSet(){
+            var array_users= [
+                {'username': 'alex', 'age': 18},
+                {'username': 'rain', 'age': 16},
+                {'username': 'eric', 'age': 17}
+            ];
+            $.ajax({
+                url: "/ajax_data_set/",
+                type: 'POST',
+                tradition: true,
+                data: {data: JSON.stringify(array_users)},
+                success: function(arg){
+                    // json.loads
+                    var callback_dict = $.parseJSON(arg);
+                    if(callback_dict.status){
+                        alert('成功');
+                    }else{
+                        alert(callback_dict.error);
+                    }
+                }
+            });
+        }
+    </script>
+    </body>
+</html>

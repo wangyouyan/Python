@@ -5,6 +5,7 @@
     <orderEntry type="jdk" jdkName="Python 2.7.10 (/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="mywebsite" />
+    <orderEntry type="module" module-name="s11day18" />
   </component>
 </module>
 

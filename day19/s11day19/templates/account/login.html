@@ -1,0 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="/login/" method="post">
+    <p>{{ obj.username }}</p>
+    <p>{{ obj.password }}</p>
+    <input type="submit" value="submit" />
+</form>
+
+<script src="{{ STATIC_URL }}/js/jquery-2.1.4.min.js"></script>
+<script src="{% static "js/jquery-2.1.4.min.js" %}"></script>
+</body>
+</html>

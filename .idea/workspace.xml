@@ -2,147 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59f5a1e7-e078-4e6d-8acc-bf548f7ebf40" name="Default" comment="item operation for sqlalchemy!">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/S11day17_django.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/mywebsite.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/Note-class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/Otomat.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/dictionaries/Rain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/backend/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/button_click.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/css/commons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/cpu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/cs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day13/css.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/day17.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/dom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/js/edit_row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/js/edit_row_bak.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/floating.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/htmlbody.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/master/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/index.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/include/input_group.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/j1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day16/edit_row/js/jquery-1.8.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/js/jquery-2.1.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/js/jquery-2.1.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/javascript/js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/load.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/margin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/memory.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/monitor_client.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/static/plugins/bootstrap/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/overflow.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/plugins/plugin_api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day14/CSS/position.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/include/sb.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/templates/son1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/backend/sqlhelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app01/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/app02/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/backend/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/Otomat/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/S11day17_django/S11day17_django/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/mywebsite/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monitor_client/.idea/dictionaries/wupeiqi.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17/mywebsite/app01/templatetags/xx.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/s11day19.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/dictionaries/Rain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/dictionaries/Rain.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18/middleware/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/forms/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/views/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/forms/account.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/views/account.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/db_admin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/forms/home.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/views/home.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/templates/home/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/templates/account/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18/middleware/middle1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/s11day18_forms.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18/app01/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day19/s11day19/app01/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/templates/user_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day18_forms/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day18/s11day19/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day17/Otomat/.idea/Otomat.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day17/Otomat/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day17/Otomat/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day17/Otomat/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day17/Otomat/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day17/Otomat/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day17/Otomat/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day13/index.html" afterPath="$PROJECT_DIR$/day13/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -171,8 +71,8 @@
     <SUITE FILE_PATH="coverage/Python$random__1_.coverage" NAME="random (1) Coverage Results" MODIFIED="1449383836525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python$json_example.coverage" NAME="json_example Coverage Results" MODIFIED="1448768406317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python$select.coverage" NAME="select Coverage Results" MODIFIED="1451185625826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day10" />
-    <SUITE FILE_PATH="coverage/Python$decorate__1_.coverage" NAME="decorate (1) Coverage Results" MODIFIED="1448174949042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python$decorate.coverage" NAME="decorate Coverage Results" MODIFIED="1448162399554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/Python$decorate__1_.coverage" NAME="decorate (1) Coverage Results" MODIFIED="1448174949042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python$paramiko.coverage" NAME="paramiko Coverage Results" MODIFIED="1452408565438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day11" />
     <SUITE FILE_PATH="coverage/Python$hashlib.coverage" NAME="hashlib Coverage Results" MODIFIED="1448191989397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
     <SUITE FILE_PATH="coverage/Python$webdemo.coverage" NAME="webdemo Coverage Results" MODIFIED="1449988445753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
@@ -204,14 +104,14 @@
     <SUITE FILE_PATH="coverage/Python$subprocess_example.coverage" NAME="subprocess_example Coverage Results" MODIFIED="1448778661775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python$pickle_test.coverage" NAME="pickle_test Coverage Results" MODIFIED="1448770197212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
     <SUITE FILE_PATH="coverage/Python$shutil_example.coverage" NAME="shutil_example Coverage Results" MODIFIED="1448781260094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day06" />
+    <SUITE FILE_PATH="coverage/Python$Threading.coverage" NAME="Threading Coverage Results" MODIFIED="1450610748064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09/Muti_Threading" />
+    <SUITE FILE_PATH="coverage/Python$Client.coverage" NAME="Client Coverage Results" MODIFIED="1450534922344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08/homework" />
     <SUITE FILE_PATH="coverage/Python$fanshe.coverage" NAME="fanshe Coverage Results" MODIFIED="1449993612037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08" />
     <SUITE FILE_PATH="coverage/Python$New_class.coverage" NAME="New_class Coverage Results" MODIFIED="1449392326626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python$Client.coverage" NAME="Client Coverage Results" MODIFIED="1450534922344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day08/homework" />
-    <SUITE FILE_PATH="coverage/Python$Threading.coverage" NAME="Threading Coverage Results" MODIFIED="1450610748064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09/Muti_Threading" />
     <SUITE FILE_PATH="coverage/Python$decorate_authentication.coverage" NAME="decorate_authentication Coverage Results" MODIFIED="1448177438994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05" />
-    <SUITE FILE_PATH="coverage/Python$class_type.coverage" NAME="class-type Coverage Results" MODIFIED="1449402286871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
-    <SUITE FILE_PATH="coverage/Python$traditional_class.coverage" NAME="traditional_class Coverage Results" MODIFIED="1449392494115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python$science_computer.coverage" NAME="science-computer Coverage Results" MODIFIED="1449374259219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Python$traditional_class.coverage" NAME="traditional_class Coverage Results" MODIFIED="1449392494115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
+    <SUITE FILE_PATH="coverage/Python$class_type.coverage" NAME="class-type Coverage Results" MODIFIED="1449402286871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07" />
     <SUITE FILE_PATH="coverage/Python$sqlalchemy_cli.coverage" NAME="sqlalchemy-cli Coverage Results" MODIFIED="1453013695655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day12" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -226,97 +126,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/index.html">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="266">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="80" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
+            <state line="8" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
               <folding>
-                <element signature="e#15#50#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/models.py">
+      <file leaf-file-name="account.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/views/account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="41" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+            <state line="8" column="19" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#92#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/views/home.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="43" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+              <folding>
+                <element signature="e#92#127#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/forms/home.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="29" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_admin" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/db_admin">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="64" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/templates/home/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="7" selection-start="228" selection-end="228" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="380">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.61009175" vertical-offset="0" max-vertical-offset="654">
+              <folding>
+                <element signature="e#23#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/admin.py">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+            <state line="6" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/login.html">
+      <file leaf-file-name="account.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/forms/account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="10" selection-start="1140" selection-end="1140" vertical-scroll-proportion="1.3636364" vertical-offset="0" max-vertical-offset="798">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="56" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="513">
+            <state line="7" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="son1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/son1.html">
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day19/s11day19/templates/account/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="195" selection-end="195" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commons.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/static/css/commons.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input_group.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/input_group.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="209">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sb.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/sb.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="133">
+            <state line="13" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="-6.071429" vertical-offset="77" max-vertical-offset="437">
               <folding />
             </state>
           </provider>
@@ -342,24 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/day12/Redis.py" />
-        <option value="$PROJECT_DIR$/day12/publisher.py" />
-        <option value="$PROJECT_DIR$/day12/subscribe.py" />
-        <option value="$PROJECT_DIR$/day12/RedisHelper.py" />
-        <option value="$PROJECT_DIR$/day12/sqlalchemy-cli.py" />
-        <option value="$PROJECT_DIR$/day12/Rabbitmq-test.py" />
-        <option value="$PROJECT_DIR$/day12/product.py" />
-        <option value="$PROJECT_DIR$/day12/consumer.py" />
-        <option value="$PROJECT_DIR$/day12/direct-product.py" />
-        <option value="$PROJECT_DIR$/day12/direct-consumer.py" />
-        <option value="$PROJECT_DIR$/practise/SQLALchemy/index.py" />
-        <option value="$PROJECT_DIR$/practise/SQLALchemy/sqlalchemy-item.py" />
-        <option value="$PROJECT_DIR$/monitor_client/plugins/cpu.py" />
-        <option value="$PROJECT_DIR$/day13/index.html" />
-        <option value="$PROJECT_DIR$/day13/index.coffee" />
-        <option value="$PROJECT_DIR$/day13/css.coffee" />
-        <option value="$PROJECT_DIR$/day13/cs.html" />
-        <option value="$PROJECT_DIR$/day14/Note-class" />
         <option value="$PROJECT_DIR$/day14/CSS/htmlbody.html" />
         <option value="$PROJECT_DIR$/day14/CSS/index.html" />
         <option value="$PROJECT_DIR$/day14/CSS/margin.html" />
@@ -393,6 +277,24 @@
         <option value="$PROJECT_DIR$/day17/mywebsite/app01/models.py" />
         <option value="$PROJECT_DIR$/day17/mywebsite/app01/admin.py" />
         <option value="$PROJECT_DIR$/day17/mywebsite/app01/views.py" />
+        <option value="$PROJECT_DIR$/day18/s11day18/s11day18/urls.py" />
+        <option value="$PROJECT_DIR$/day18/s11day18/middleware/middle1.py" />
+        <option value="$PROJECT_DIR$/day18/s11day18/templates/login.html" />
+        <option value="$PROJECT_DIR$/day18/s11day18/app01/urls.py" />
+        <option value="$PROJECT_DIR$/day18/s11day18/app01/views.py" />
+        <option value="$PROJECT_DIR$/day18/s11day18/s11day18/settings.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/app01/forms/account.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/templates/account/login.html" />
+        <option value="$PROJECT_DIR$/day19/s11day19/s11day19/urls.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/s11day19/settings.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/app01/views/account.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/templates/home/index.html" />
+        <option value="$PROJECT_DIR$/day19/s11day19/app01/forms/home.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/app01/urls.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/db_admin" />
+        <option value="$PROJECT_DIR$/day19/s11day19/app01/admin.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/app01/views/home.py" />
+        <option value="$PROJECT_DIR$/day19/s11day19/app01/models.py" />
       </list>
     </option>
   </component>
@@ -402,10 +304,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="23" />
-    <option name="width" value="1431" />
-    <option name="height" value="873" />
+    <option name="x" value="-20" />
+    <option name="y" value="53" />
+    <option name="width" value="1440" />
+    <option name="height" value="833" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -500,14 +402,14 @@
       <recent name="C:\Users\Administrator\PycharmProjects\Python\day08\homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day18" />
       <recent name="$PROJECT_DIR$/day17/mywebsite/templates" />
       <recent name="$PROJECT_DIR$/day17/mywebsite/static/plugins" />
       <recent name="$PROJECT_DIR$/day17/mywebsite" />
       <recent name="$PROJECT_DIR$/day17/S11day17_django/templates" />
-      <recent name="$PROJECT_DIR$/day17/S11day17_django/app01" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.mywebsite">
+  <component name="RunManager" selected="Django server.s11day18">
     <configuration default="false" name="sqlalchemy-cli" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -687,32 +589,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -734,6 +610,32 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -818,14 +720,38 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="7">
+    <configuration default="false" name="s11day18" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="s11day18" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Django server.mywebsite" />
       <item index="1" class="java.lang.String" itemvalue="Python.Client" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
-      <item index="3" class="java.lang.String" itemvalue="Python.consumer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.product" />
-      <item index="5" class="java.lang.String" itemvalue="Python.index" />
-      <item index="6" class="java.lang.String" itemvalue="Python.sqlalchemy-item" />
+      <item index="2" class="java.lang.String" itemvalue="Django server.s11day18" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sqlalchemy-cli" />
+      <item index="4" class="java.lang.String" itemvalue="Python.consumer" />
+      <item index="5" class="java.lang.String" itemvalue="Python.product" />
+      <item index="6" class="java.lang.String" itemvalue="Python.index" />
+      <item index="7" class="java.lang.String" itemvalue="Python.sqlalchemy-item" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -963,15 +889,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="23" width="1431" height="873" extended-state="6" />
-    <editor active="false" />
+    <frame x="-20" y="53" width="1440" height="833" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.72796935" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20185924" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21475054" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="420" y="96" width="240" height="731" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21839081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="420" y="96" width="240" height="731" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39875388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1018,101 +944,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day12/direct-consumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practise/SQLALchemy/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/backend/sqlhelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day13/css.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="209" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day13/cs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="320" selection-end="320" vertical-scroll-proportion="0.484985" vertical-offset="0" max-vertical-offset="666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day13/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="0" selection-start="3167" selection-end="3167" vertical-scroll-proportion="0.34199134" vertical-offset="2157" max-vertical-offset="2850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/cpu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.63245493" vertical-offset="0" max-vertical-offset="721" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/load.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/memory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor_client/plugins/plugin_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="694" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/Note-class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/CSS/htmlbody.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/CSS/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/CSS/margin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/CSS/position.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day14/javascript/j1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day14/CSS/floating.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.24675325" vertical-offset="0" max-vertical-offset="693" />
@@ -1175,150 +1006,251 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="132" selection-end="132" vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="693">
-          <folding />
-        </state>
+        <state line="7" column="24" selection-start="132" selection-end="132" vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="693" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.13176145" vertical-offset="0" max-vertical-offset="721">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.13176145" vertical-offset="0" max-vertical-offset="721" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/S11day17_django/S11day17_django/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding>
-            <element signature="e#704#736#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="22" column="30" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/S11day17_django/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="7" column="31" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/S11day17_django/S11day17_django/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="5" selection-start="3239" selection-end="3239" vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="2527">
-          <folding />
-        </state>
+        <state line="125" column="5" selection-start="3239" selection-end="3239" vertical-scroll-proportion="0.0" vertical-offset="1833" max-vertical-offset="2527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/S11day17_django/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.3015873" vertical-offset="0" max-vertical-offset="693">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.3015873" vertical-offset="0" max-vertical-offset="693" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/templatetags/xx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <folding>
-            <element signature="e#92#119#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="18" column="28" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="277" selection-end="277" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="475">
-          <folding />
-        </state>
+        <state line="14" column="20" selection-start="277" selection-end="277" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="475" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/input_group.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="209">
-          <folding />
-        </state>
+        <state line="2" column="19" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.3571428" vertical-offset="0" max-vertical-offset="209" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/include/sb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="133">
-          <folding />
-        </state>
+        <state line="1" column="18" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6785714" vertical-offset="0" max-vertical-offset="133" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/son1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="195" selection-end="195" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="11" column="14" selection-start="195" selection-end="195" vertical-scroll-proportion="-7.464286" vertical-offset="0" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/static/css/commons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="56" selection-start="174" selection-end="174" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="513">
-          <folding />
-        </state>
+        <state line="24" column="1" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/mywebsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="431" selection-end="431" vertical-scroll-proportion="0.41394335" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day17/mywebsite/mywebsite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="27" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.8765432" vertical-offset="657" max-vertical-offset="2489">
-          <folding />
-        </state>
+        <state line="10" column="44" selection-start="431" selection-end="431" vertical-scroll-proportion="0.41394335" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="41" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="80" selection-start="1062" selection-end="1062" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
           <folding>
-            <element signature="e#15#50#0" expanded="true" />
+            <element signature="e#15#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="1140" selection-end="1140" vertical-scroll-proportion="1.3636364" vertical-offset="0" max-vertical-offset="798">
+        <state line="30" column="10" selection-start="1140" selection-end="1140" vertical-scroll-proportion="-20.357143" vertical-offset="0" max-vertical-offset="798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/templates/master/m1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="56" selection-start="174" selection-end="174" vertical-scroll-proportion="0.22727273" vertical-offset="0" max-vertical-offset="513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/s11day18/middleware/middle1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/mywebsite/mywebsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="3221" selection-end="3280" vertical-scroll-proportion="0.6845018" vertical-offset="1947" max-vertical-offset="2489" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/s11day18/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="76" selection-end="76" vertical-scroll-proportion="0.10966811" vertical-offset="0" max-vertical-offset="693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/s11day18/app01/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.13176145" vertical-offset="0" max-vertical-offset="721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/s11day18/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="640" selection-end="641" vertical-scroll-proportion="0.4479889" vertical-offset="0" max-vertical-offset="721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/s11day18/s11day18/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="0" selection-start="3280" selection-end="3339" vertical-scroll-proportion="0.0" vertical-offset="1806" max-vertical-offset="2527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/s11day18_forms/s11day18_forms/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="721">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18/s11day18/s11day18/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="850" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#697#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="-6.071429" vertical-offset="77" max-vertical-offset="437">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/s11day19/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="22" selection-start="3272" selection-end="3272" vertical-scroll-proportion="0.60341555" vertical-offset="2000" max-vertical-offset="2527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/s11day19/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="23" selection-start="794" selection-end="794" vertical-scroll-proportion="0.58844763" vertical-offset="16" max-vertical-offset="570">
+          <folding>
+            <element signature="e#697#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/db_admin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="64" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/forms/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/views/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <folding>
+            <element signature="e#92#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="7" selection-start="228" selection-end="228" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/forms/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/views/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="43" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding>
+            <element signature="e#92#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19/s11day19/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.61009175" vertical-offset="0" max-vertical-offset="654">
+          <folding>
+            <element signature="e#23#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
