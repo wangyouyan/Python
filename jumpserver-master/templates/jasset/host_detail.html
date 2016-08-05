@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load mytags %}
+{% block content %}
+{% include 'nav_cat_bar.html' %}
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5> {{ host.host_name }} 详细内容</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+
+                    <h4>主机名:<small>{{ host.host_name }}</small></h4>
+                    <h4>IP:<small>{{ host.host_ip }}</small></h4>
+                    <h4>SN:<small>{{ host.SN }}</small></h4>
+                    <h4>用户名:<small>{{ host.host_user }}</small></h4>
+                    <h4>密码:<small>{{ host.host_passwd }}</small></h4>
+                    <h4>主机类型:<small>{{ host.host_models }}</small></h4>
+                    <h4>环境类型:<small>{{ host.env_type }}</small></h4>
+                    <h4>Idrac ip:<small></small>{{ host.Idrac.Idrac_ip }}</h4>
+                    <h4>Idrac 用户名:<small></small>{{ host.Idrac.Idrac_user }}</h4>
+                    <h4>Idrac 密码:<small></small>{{ host.Idrac.Idrac_passwd }}</h4>
+                    <h4>备注信息:<small>{{ host.comments }}</small></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block self_footer_js %}
+<script type="application/javascript" src="/static/js/bootbox.js"></script>
+<script>
+
+</script>
+
+{% endblock %}

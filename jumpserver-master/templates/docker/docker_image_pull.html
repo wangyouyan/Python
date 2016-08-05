@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load bootstrap %}
+{% include 'nav_cat_bar.html' %}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div id="ibox-content" class="ibox-title">
+                    <h5> Search image </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content">
+                    {% if emg %}
+                        <div class="alert alert-warning text-center">{{ emg }}</div>
+                    {% endif %}
+                    {% if smg %}
+                        <div class="alert alert-success text-center">{{ smg }}</div>
+                    {% endif %}
+                    <div id="pull_image_form" class="form-horizontal">
+
+
+                         {% for item in images_form %}
+                             <div class="form-group">
+                                 <div class="col-sm-9">
+                                     {{ item|bootstrap_horizontal }}
+                                 </div>
+                             </div>
+                             <div class="hr-line-dashed"></div>
+                         {% endfor %}
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-5">
+                                <button class="btn btn-primary" onclick="search_image()"> Search </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search_ret col-sm-8">
+            <div class="ibox float-e-margins">
+                <div id="ibox-content" class="ibox-title">
+                    <h5> Search result </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pull_progress col-sm-4">
+            <div class="ibox float-e-margins">
+                <div id="ibox-content" class="ibox-title">
+                    <h5>Pull  progress </h5>
+                    <div class="ibox-tools ">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content pull_image_progress ">
+                    <div class="hawkularqe/manageiq-test"></div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+$(document).ready(function(){
+    $.get(
+            '{% url "image_history" %}',
+            {},
+            function(data){
+                $(".pull_image_progress").append(data);
+{#                if(data=="true"){#}
+{#                    bootbox.alert("remove ok..",reload_page);#}
+{#                }#}
+            }
+    );
+})
+</script>
+
+<script>
+    function getRandomString(len) {
+        len = len || 32;
+        var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
+        var maxPos = $chars.length;
+        var pwd = '';
+        for (i = 0; i < len; i++) {
+            pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
+        }
+        return pwd;
+    }
+
+
+    function pull_image(ths) {
+{#        console.log($(ths).html());#}
+{#        console.log($(ths).closest("tr").html());#}
+        var image_name = $(ths).closest("tr").find(".name").html();
+        var registry = $("#id_registry").val();
+        var docker_host = $("#id_docker_host").val();
+        bootbox.alert("Start download.....");
+        $.get("{% url 'pull_image' %}",{"image_name":image_name,"registry":registry,"docker_host":docker_host});
+        var pull_div = $(".pull_image_progress");
+        var image_random_id = getRandomString();
+        pull_div.append("<div class="+image_random_id+">"+"<h5>"+image_name+"</h5>"+"</div>");
+
+        var wsServer = 'ws://172.16.13.80:8088/docker/pull_image_progress'; //服务器地址
+            var websocket = new WebSocket(wsServer); //创建WebSocket对象
+            websocket.onopen = function (evt) {
+                //已经建立连接
+                console.log(websocket.readyState);
+                websocket.send(image_name+"|"+docker_host);//向服务器发送消息
+                //查看websocket当前状态
+            };
+            websocket.onclose = function (evt) {
+                console.log("closed !!!!!!!!");
+                //已经关闭连接
+            };
+            websocket.onmessage = function (evt) {
+                console.log(evt.data);
+                var progress = $.parseJSON(evt.data);
+                if(progress.id){
+
+                    var id = progress.id;
+                    var ret  = JSON.stringify(progress.progress);
+                    var status = progress.status;
+                    if(status=="Already exists"){
+                        ret = "Already exists";
+                    }
+                    var id_len = pull_div.find("."+id).length;
+
+                    if(!ret){
+                        ret="";
+                    }
+
+                    if(id_len!=0){
+                        pull_div.find("."+id).text(id+":"+status+":"+ret);
+
+                    }else{
+                        var ret_html = "<div class="+id+">"+id+":"+ret+"</div>";
+
+                        pull_div.find("."+image_random_id).append(ret_html);
+                    }
+
+                }
+            };
+    }
+
+    function search_image(){
+        var all_item = $("#pull_image_form").find("input[id^='id_'],select");
+        console.log(all_item);
+        var get_data= {};
+        all_item.each(function () {
+            get_data[$(this).attr("name")] = $(this).val()
+        });
+{#        console.log(get_data);#}
+        $.get("{% url 'image_search' %}",get_data,function(data){
+
+                $(".search_ret").find(".ibox-content").html(data);
+        });
+
+    }
+
+    var required_fields = ["id_url","id_server_name"];
+    required_fields.forEach(function(field) {
+        $('label[for="' + field + '"]').parent().addClass("required");
+    });
+
+    $('#URLForm').validator({
+        timely: 2,
+        theme: "yellow_right_effect",
+        fields: {
+            "#id_url": {
+                rule: "required",
+                tip: "输入URL",
+                ok: "",
+                msg: {required: "URL必须填写!"},
+                data: {'data-ok':"URL可以使用", 'data-msg-required': 'URL已正确'}
+            },
+            "#id_server_name": {
+                rule: "required",
+                tip: "输入服务名称",
+                ok: "",
+                msg: {required: "服务名称必须填写!"},
+                data: {'data-ok':"服务名称可以使用", 'data-msg-required': '服务名称已正确'}
+            },
+
+        },
+        valid: function(form) {
+            form.submit();
+        }
+    });
+</script>
+
+{% endblock %}

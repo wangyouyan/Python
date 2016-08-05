@@ -1,0 +1,284 @@
+{% extends 'base.html' %}
+{% load mytags %}
+{% block content %}
+{% include 'nav_cat_bar.html' %}
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5> {{ platform.platform_name }} 详细内容</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+
+                    <h4>平台名称:<small>{{ platform.platform_name }}</small></h4>
+                    <h4>虚拟化类型:<small>{{ platform.virtual_type }}</small></h4>
+                    <h4>区域:<small>{{ platform.zone }}</small></h4>
+                    <h4>主机名称:<small><a href="{% url 'asset_detail' %}?id={{ platform.host_info.id }}">{{ platform.host_info.hostname }}</a></small></h4>
+                    <h4>主机IP:<small>{{ platform.host_info.ip }}</small></h4>
+                    <h4>用户:<small>{{ platform.host_info.username }}</small></h4>
+                    <h4>密码:<small>{{ platform.host_info.password }}</small></h4>
+{#                    <h4>主机类型:<small>{{ platform.host_info.brand }}</small></h4>#}
+{#                    <h4>环境类型:<small>{{ platform.host_info.env_type }}</small></h4>#}
+{#                    <h4>Idrac ip:<small></small>{{ platform.host_info.remote_ip.Idrac_ip }}</h4>#}
+{#                    <h4>Idrac 用户名:<small></small>{{ platform.host_info.remote_ip.Idrac_user }}</h4>#}
+{#                    <h4>Idrac 密码:<small></small>{{ platform.host_info.remote_ip.Idrac_passwd }}</h4>#}
+{#                    <h4>备注信息:<small>{{ platform.host_info.comment }}</small></h4>#}
+                </div>
+            </div>
+                        <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5> 虚拟主机列表</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="">
+
+                    <a onclick="virtual_host_add()" class="btn btn-sm btn-primary "> 添加虚拟主机 </a>
+                    <a onclick="batch_add()" class="btn btn-sm btn-primary "> 批量添加虚拟主机 </a>
+                    <input type="button" id="del_check" class="btn btn-danger btn-sm"  name="del_button" value="删除所选"/>
+
+                    <form id="search_form" method="get" action="" class="pull-right mail-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" id="search_input" name="keyword" placeholder="Search">
+                            <input type="text" style="display: none" name="id" value="{{ platform_id }}">
+                            <div class="input-group-btn">
+                                <button id='search_btn' type="submit" class="btn btn-sm btn-primary">
+                                    Search
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+            <div class="add_virtual_host_div form_content form-horizontal hide  " >
+                {% csrf_token %}
+                {% for item in virtual_host_form %}
+                    <div class="form-group">
+                        <div class="col-sm-3 ">
+                            {{ item.label_tag }}
+                        </div>
+                        <div class="col-sm-7">
+                            {{ item }}{{ item.errors }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+                    <form id="contents_form" name="contents_form">
+                    <table class="table table-striped table-bordered table-hover " id="editable" >
+                        <thead>
+                            <tr>
+                                {% ifequal session_role_id 2 %}
+                                    <th class="text-center"><input id="checkall" type="checkbox" class="i-checks" name="checkall" value="checkall" data-editable='false' onclick="check_all('contents_form')"></th>
+                                {% endifequal %}
+                                <th class="text-center">主机名</th>
+                                <th class="text-center">IP地址</th>
+                                <th class="text-center">用户</th>
+                                <th class="text-center">密码</th>
+                                <th class="text-center">备注 </th>
+                                <th class="text-center">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% load my_tag %}
+                        {% for post in contacts.object_list  %}
+                            <tr class="gradeX">
+                                <td class="text-center" name="j_id" value="{{ post.id }}" data-editable='false'><input name="id" value="{{ post.id }}" type="checkbox" class="i-checks"></td>
+                                <td class="text-center">{% tran_search_value post.host_name keyword %}  </td>
+{#                                <td class="text-center">{{ post.host_name }}</td>#}
+                                <td class="text-center">{% tran_search_value post.host_ip keyword%}  </td>
+                                <td class="text-center">{% tran_search_value post.host_user keyword%} </td>
+                                <td class="text-center">{% tran_search_value post.host_passwd keyword%}  </td>
+                                <td class="text-center">{% tran_search_value post.host_comments keyword%}  </td>
+                                <td class="text-center">
+                                    <a href="{% url 'virtual_host_edit' %}?platform_id={{ platform_id }}&&id={{ post.id }}"  class="btn btn-xs btn-info">编辑</a>
+                                    <a value="{% url 'virtual_host_del' %}?id={{ post.id }}" class="btn btn-xs btn-danger virtual_host_del">删除</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                   <div class="row">
+                        <div class="col-sm-6">
+                            <div class="dataTables_info" id="editable_info" role="status" aria-live="polite">
+                                Showing {{ contacts.start_index }} to {{ contacts.end_index }} of {{ p.count }} entries
+                            </div>
+                        </div>
+                        {% include 'paginator.html' %}
+                    </div>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block self_footer_js %}
+<script type="application/javascript" src="/static/js/bootbox.js"></script>
+<script>
+
+    $(document).ready(function(){
+        $('.virtual_host_del').click(function(){
+            var row = $(this).closest('tr');
+            if (confirm('确定删除?')) {
+                $.get(
+                        $(this).attr('value'),
+                        {},
+                        function (data) {
+                            console.log(data)
+                            if(data=="true"){
+                                row.remove();
+                            }
+
+                        }
+                );
+                return false
+            }
+        });
+
+        $('#del_check').click(function(){
+            var check_array = [];
+            if (confirm('确定删除?')){
+                $('tr.gradeX input:checked').each(function(){
+                    check_array.push($(this).attr('value'))
+                });
+                $.get(
+                        '{% url "virtual_host_del" %}',
+                        {id: check_array.join(',')},
+                        function(data){
+                            if(data=="true"){
+                                $('tr.gradeX input:checked').closest('tr').remove();
+                            }
+                        }
+                );
+                return false;
+            }
+        })
+    });
+
+
+function batch_add() {
+
+        var dialog_info = "<p>请按照如下格式添加<br>服务器IP地址|服务器名称|备注</p>";
+        var dialog_message =dialog_info+ '<textarea class="batch_add_text" style="margin: 0px; width: 548px; height: 272px;"></textarea>';
+
+        console.log(dialog_message);
+        bootbox.dialog({
+            title:"批量添加主机",
+            message: dialog_message,
+            buttons: {
+                "success": {
+                    "label": "<i class='icon-ok'></i> 保存",
+                    "className": "btn-sm btn-primary",
+                    "callback": function () {
+                        var batch_info = $(".batch_add_text").val();
+                        console.log(batch_info);
+                        var myForm = new FormData();
+                        myForm.append("platform_id",{{ platform_id }})
+                        myForm.append("batch_add",batch_info);
+                        $.ajax({
+                            url:"{% url 'batch_add_virtual_host' %}",
+                            type:"POST",
+                            contentType:false,
+                            data:myForm,
+                            dataType:'JSON',
+                            success:function () {
+                                bootbox.alert("添加成功",reload_page);
+                            },
+                            processData:false,
+                        });
+                    }// end call back
+                },//end success
+                "cancel": {
+                    "label": "<i class='icon-info'></i> 取消",
+                    "className": "btn-sm btn-danger",
+                    "callback":function () {
+                        console.log("??");
+                    }
+                } // end cancel ..
+            }// buttons end ..
+            });
+        // bootbox dialog end ...
+    };
+
+
+
+function virtual_host_add(){
+    var platform_id = {{ platform_id }};
+    var platform_name = "{{ platform.platform_name }}";
+    var add_dialog = $(".add_virtual_host_div").clone();
+    add_dialog.removeClass("hide");
+    bootbox.dialog({
+        title: "添加虚拟主机|"+platform_name,
+        message: add_dialog ,
+        buttons: {
+            "success": {
+                "label": "<i class='icon-ok'></i> 保存",
+                "className": "btn-sm btn-primary",
+                "callback": function () {
+                    console.log("..........");
+                    var all_item = add_dialog.find("input[id^='id_']");
+                    var myform = new FormData();
+                    myform.append("id",platform_id);
+                    all_item.each(function () {
+                        myform.append($(this).attr("name"),$(this).val());
+                    });
+                    console.log(myform);
+                    $.ajax({
+{#                       url:"{% url 'virtual_platform_detail' %}",#}
+                        type:"POST",
+                        contentType:false,
+                        data:myform,
+                        dataType:"JSON",
+                        success:function () {
+                            bootbox.alert("添加成功",reload_page);
+                        },
+                        error:function () {
+                          bootbox.alert("添加失败");
+                        },
+                        processData:false,
+
+                    });
+
+                }//call back function end....
+            },// end success....
+            "cancel": {
+                "label": "<i class='icon-info'></i> 取消",
+                "className": "btn-sm btn-danger",
+                "callback": function () {
+
+                }
+            }// cancel end
+        }// button end ....
+
+    });//bootbox.dialog end ....
+
+}
+</script>
+{% endblock %}

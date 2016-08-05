@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load bootstrap %}
+{% include 'nav_cat_bar.html' %}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div id="ibox-content" class="ibox-title">
+                    <h5> 修改虚拟主机信息 </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#">未启用 1</a>
+                            </li>
+                            <li><a href="#">未启用 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content">
+                    {% if emg %}
+                        <div class="alert alert-warning text-center">{{ emg }}</div>
+                    {% endif %}
+                    {% if smg %}
+                        <div class="alert alert-success text-center">{{ smg }}</div>
+                    {% endif %}
+                    <form id="platform_form" method="post" class="form-horizontal">
+                        <input name="platform_id" value="{{ platform_id }}" class="hide">
+                        {{ virtual_host_form.host_ip|bootstrap_horizontal }}
+                        <div class="hr-line-dashed"></div>
+
+                        {{ virtual_host_form.host_name|bootstrap_horizontal }}
+                        <div class="hr-line-dashed"></div>
+
+{#                        {{ virtual_host_form.host_user|bootstrap_horizontal }}#}
+{#                        <div class="hr-line-dashed"></div>#}
+{#                        #}
+{##}
+{#                        {{ virtual_host_form.host_passwd|bootstrap_horizontal }}#}
+{#                        #}
+{##}
+                        <div class="hr-line-dashed"></div>
+                        {{ virtual_host_form.host_comments|bootstrap_horizontal }}
+
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-5">
+                                <button class="btn btn-white" type="submit"> 重置 </button>
+                                <button class="btn btn-primary" type="sumbit"> 提交 </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var required_fields = ["id_platform_name","id_virtual_type","id_host_name","id_host_ip"];
+    required_fields.forEach(function(field) {
+        $('label[for="' + field + '"]').parent().addClass("required");
+    });
+
+    $('#platform_form').validator({
+        timely: 2,
+        theme: "yellow_right_effect",
+        fields: {
+
+            "#id_host_name": {
+                rule: "required",
+                tip: "输入主机名称",
+                ok: "",
+                msg: {required: "主机名称必须填写!"},
+                data: {'data-ok':"主机名称可以使用", 'data-msg-required': '主机名称已正确'}
+            },
+            "#id_host_ip": {
+                rule: "required",
+                tip: "输入主机IP",
+                ok: "",
+                msg: {required: "主机IP必须填写!"},
+                data: {'data-ok':"主机IP可以使用", 'data-msg-required': '主机IP已正确'}
+            },
+        },
+        valid: function(form) {
+            form.submit();
+        }
+    });
+</script>
+
+{% endblock %}

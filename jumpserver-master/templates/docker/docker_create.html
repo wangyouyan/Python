@@ -1,0 +1,173 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load bootstrap %}
+{% include 'nav_cat_bar.html' %}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div id="ibox-content" class="ibox-title">
+                    <h5> 填写Docker信息 </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content">
+                    {% if emg %}
+                        <div class="alert alert-warning text-center">{{ emg }}</div>
+                    {% endif %}
+                    {% if smg %}
+                        <div class="alert alert-success text-center">{{ smg }}</div>
+                    {% endif %}
+                    <form id="URLForm" method="post" class="form-horizontal">
+
+
+                         {% for item in docker_form %}
+                                 <div class="col-sm-9">
+                                     {{ item|bootstrap_horizontal }}
+                                 </div>
+{#                             <div class="hr-line-dashed"></div>#}
+                         {% endfor %}
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-5">
+                                <button class="btn btn-white" type="submit"> 重置 </button>
+                                <button class="btn btn-primary" type="sumbit"> 提交 </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+            var volume_obj = $("#id_volume_name");
+            var option_html = "<option vlaue='Auto'>自动创建</option>";
+            volume_obj.empty();
+            volume_obj.append(option_html);
+            $("#id_port").closest(".col-sm-9").hide();
+    });
+    function change_port_type(ths) {
+        if($(ths).val()=="default"){
+            $("#id_port").closest(".col-sm-9").hide();
+        }else{
+            $("#id_port").closest(".col-sm-9").show();
+
+        }
+    }
+    function change_mount_type(ths) {
+        if($(ths).val()=="auto"){
+            $("#id_volume_name").closest('.col-sm-9').show();
+            $("#id_docker_mount").closest('.col-sm-9').show();
+            var volume_obj = $("#id_volume_name");
+            var option_html = "<option vlaue='Auto'>自动创建</option>";
+            volume_obj.empty();
+            volume_obj.append(option_html);
+        }else if($(ths).val()=="nomount"){
+            $("#id_volume_name").closest('.col-sm-9').hide();
+            $("#id_docker_mount").closest('.col-sm-9').hide();
+        }else if($(ths).val()=="input"){
+            $("#id_volume_name").closest('.col-sm-9').show();
+            $("#id_docker_mount").closest('.col-sm-9').show();
+            change_host($("#id_docker_host"));
+        }
+
+
+    }
+
+
+    function change_host(ths){
+        var option_html = "";
+        var volume_obj = $("#id_volume_name");
+{#        console.log($("#id_auto_volume")[0].checked);#}
+
+        $.get("{% url 'docker_image_list' %}",{"docker_host":$(ths).val(),"query":"true"},function(data){
+{#            console.log(data);#}
+            var images  = $.parseJSON(data);
+            var container_image = $("#id_container_images");
+            container_image.empty();
+            $.each(images,function () {
+{#               console.log($(this));#}
+                var new_item = $(this)[0].RepoTags[0];
+                var item_html = "<option value="+new_item+">"+new_item+"</option>";
+                container_image.append(item_html);
+
+
+            });
+
+        });
+{#        volume #}
+        if($("#id_mount_type").val()=="auto"){
+            option_html = "<option vlaue='Auto'>自动创建</option>";
+                volume_obj.empty();
+                volume_obj.append(option_html);
+        }else{
+                $.get("{% url 'docker_volume_list' %}",{"docker_host":$(ths).val(),"query":"true"},function(data){
+                    if(data!="null"){
+                        volume_obj.removeAttr('disabled');
+                        var a = $.parseJSON(data);
+                        $.each(a,function () {
+                            console.log($(this));
+                            var name = $(this)[0].Name;
+                            var value = $(this)[0].Mountpoint;
+                            option_html += "<option value="+value+" >"+name+"</option>";
+                        });
+                        option_html += "<option vlaue=None>不挂载数据卷</option>";
+                        volume_obj.empty();
+                        volume_obj.append(option_html);
+                    }else{
+                        option_html += "<option vlaue=None >无可用数据卷</option>";
+                        volume_obj.attr('disabled','disabled');
+                        volume_obj.empty();
+                        volume_obj.append(option_html);
+                    }
+
+                });
+            }
+
+    };
+    var required_fields = ["id_url","id_server_name"];
+    required_fields.forEach(function(field) {
+        $('label[for="' + field + '"]').parent().addClass("required");
+    });
+
+    $('#URLForm').validator({
+        timely: 2,
+        theme: "yellow_right_effect",
+        fields: {
+            "#id_url": {
+                rule: "required",
+                tip: "输入URL",
+                ok: "",
+                msg: {required: "URL必须填写!"},
+                data: {'data-ok':"URL可以使用", 'data-msg-required': 'URL已正确'}
+            },
+            "#id_server_name": {
+                rule: "required",
+                tip: "输入服务名称",
+                ok: "",
+                msg: {required: "服务名称必须填写!"},
+                data: {'data-ok':"服务名称可以使用", 'data-msg-required': '服务名称已正确'}
+            },
+
+        },
+        valid: function(form) {
+            form.submit();
+        }
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load bootstrap %}
+{% include 'nav_cat_bar.html' %}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div id="ibox-content" class="ibox-title">
+                    <h5> 填写租户信息 </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content">
+                    {% if emg %}
+                        <div class="alert alert-warning text-center">{{ emg }}</div>
+                    {% endif %}
+                    {% if smg %}
+                        <div class="alert alert-success text-center">{{ smg }}</div>
+                    {% endif %}
+                    <form id="TenantForm" method="post" class="form-horizontal">
+
+                        {{ Tenant_Form.env_type|bootstrap_horizontal }}
+                        <div class="hr-line-dashed"></div>
+
+                        {{ Tenant_Form.tenant_name|bootstrap_horizontal }}
+
+                        <div class="hr-line-dashed"></div>
+                        {{ Tenant_Form.user_name|bootstrap_horizontal }}
+
+                        <div class="hr-line-dashed"></div>
+                        {{ Tenant_Form.user_passwd|bootstrap_horizontal }}
+
+                        <div class="hr-line-dashed"></div>
+                        {{ Tenant_Form.admin_host|bootstrap_horizontal }}
+
+                        <div class="hr-line-dashed"></div>
+                        {{ Tenant_Form.net_work|bootstrap_horizontal }}
+
+                        <div class="hr-line-dashed"></div>
+                        {{ Tenant_Form.comments|bootstrap_horizontal }}
+
+
+                        <div class="hr-line-dashed"></div>
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-5">
+                                <button class="btn btn-white" type="submit"> 重置 </button>
+                                <button class="btn btn-primary" type="sumbit"> 提交 </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var required_fields = ["id_tenant_name","id_user_name","id_user_passwd"];
+    required_fields.forEach(function(field) {
+        $('label[for="' + field + '"]').parent().addClass("required");
+    });
+
+    $('#TenantForm').validator({
+        timely: 2,
+        theme: "yellow_right_effect",
+        fields: {
+            "#id_tenant_name": {
+                rule: "required",
+                tip: "输入租户名称",
+                ok: "",
+                msg: {required: "租户名称必须填写!"},
+                data: {'data-ok':"租户名称可以使用", 'data-msg-required': '租户名称已正确'}
+            },
+            "#id_user_name": {
+                rule: "required",
+                tip: "输入用户名称",
+                ok: "",
+                msg: {required: "用户名称必须填写!"},
+                data: {'data-ok':"用户名称可以使用", 'data-msg-required': '用户名称已正确'}
+            },
+            "#id_user_passwd": {
+                rule: "required",
+                tip: "输入用户密码",
+                ok: "",
+                msg: {required: "用户密码必须填写!"},
+                data: {'data-ok':"用户密码可以使用", 'data-msg-required': '用户密码已正确'}
+            }
+        },
+        valid: function(form) {
+            form.submit();
+        }
+    });
+</script>
+
+{% endblock %}

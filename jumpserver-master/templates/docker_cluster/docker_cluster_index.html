@@ -1,0 +1,176 @@
+{% extends 'base.html' %}
+{% load mytags %}
+{% load humanize %}
+{% block content %}
+{% include 'nav_cat_bar.html' %}
+
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-success pull-right">Docker</span>
+                    <h5>集群总数</h5>
+                </div>
+
+                <div class="ibox-content">
+                    <div id="container_charts" style="width: 320px;height:200px;"></div>
+                    <h1 class="no-margins"><a href="{% url 'docker_list' %}">{{ active_docker_count }}/{{ all_docker_count}}</a></h1>
+                    <small>All docker</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-info pull-right">Docker Hosts</span>
+                    <h5>Docker 集群node总数</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins"><a href="{% url 'docker_list' %}">{{ docker_host_count }}</a></h1>
+                    <small>All Docker host</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-info pull-right">Docker Images </span>
+                    <h5>Docker 集群镜像总数</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 class="no-margins"><a href="{% url 'docker_image_list' %}">{{ docker_image_count }}</a></h1>
+                    <small>All Docker Images </small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <span class="label label-info pull-right">Docker Status  </span>
+                    <h5>Docker Status</h5>
+                </div>
+                <div class="ibox-content docker_status">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
+{% endblock %}
+
+{% block self_footer_js %}
+<script>
+var wsServer = 'ws://172.16.13.80:8088/docker/ws'; //服务器地址
+var websocket = new WebSocket(wsServer); //创建WebSocket对象
+{#alert(websocket.readyState);#}
+websocket.onopen = function (evt) {
+    //已经建立连接
+    console.log(websocket.readyState);
+    websocket.send("hello");//向服务器发送消息
+    //查看websocket当前状态
+};
+websocket.onclose = function (evt) {
+    console.log("closed !!!!!!!!");
+    //已经关闭连接
+};
+websocket.onmessage = function (evt) {
+    //收到服务器消息，使用evt.data提取
+{#    console.log(evt.data);#}
+
+    $(".docker_status").text("");
+    var status = $.parseJSON(evt.data);
+    var read_date = "read_date";
+{#    console.log(status);#}
+    if(status==0){
+{#        console.log("???");#}
+        $(".docker_status").html("Total Memory:0 Mb<br>");
+    }else{
+        var total_memory = 0;
+        var read_date  = 0;
+{#        console.log(status);#}
+        $.each(status,function (k,v) {
+            total_memory =total_memory+ v.memory_stats.usage;
+            read_date = v.read;
+        });
+        $(".docker_status").html("Total Memory:"+(total_memory/1024/1024).toString().substring(0,5)+"Mb<br>"+read_date.toString().substring(0,19).replace("T"," "));
+    }
+
+
+{#    console.log(status.memory_stats.usage);#}
+{#    $(".docker_status").text("memory_stats: "+status.memory_stats.usage);#}
+
+
+
+};
+websocket.onerror = function (evt) {
+    //产生异常
+    console.log(evt.data);
+};
+</script>
+<script src="/static/js/echarts.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('#show').click(function(){
+        $('#show').css('display', 'none');
+        $('#more').css('display', 'block');
+    })
+});
+
+</script>
+<script>
+var container_charts = echarts.init(document.getElementById("container_charts"));
+option = {
+    tooltip: {
+        trigger: 'item',
+        formatter: "{a} <br/>{b}: {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        x: 'left',
+        data:['挂起状态','运行状态','停止状态','重启状态']
+    },
+    series: [
+        {
+            name:'容器状态',
+            type:'pie',
+            radius: ['50%', '70%'],
+            avoidLabelOverlap: false,
+            label: {
+                normal: {
+                    show: false,
+                    position: 'center'
+                },
+                emphasis: {
+                    show: true,
+                    textStyle: {
+                        fontSize: '10',
+                        fontWeight: 'bold'
+                    }
+                }
+            },
+            labelLine: {
+                normal: {
+                    show: false
+                }
+            },
+            data:[
+                {value:{{ paused_docker_count }}, name:'挂起状态'},
+                {value:{{ active_docker_count }}, name:'运行状态'},
+                {value:{{ stop_docker_count }}, name:'停止状态'},
+                {value:{{ restarting_docker_count }}, name:'重启状态'},
+
+            ],
+            color:["red","green","#666","black"]
+
+        }
+
+    ]
+
+};
+container_charts.setOption(option);
+</script>
+{% endblock %}

@@ -1,0 +1,282 @@
+{% extends 'base.html' %}
+{% load mytags %}
+{% block content %}
+{% include 'nav_cat_bar.html' %}
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5> Volume 列表</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div class="docker">
+                    <a href="{% url 'docker_volume_create' %}" class="btn btn-sm btn-primary "> 创建Volume </a>
+                    <input type="button" id="remove_volume" class="btn btn-danger btn-sm operate_check"  name="del_button"  value="删除所选"/>
+
+
+                    <label>
+                        <select name="tenant" class="form-control m-b input-sm" onchange="change_env_type(this)">
+                        <option value="all" {% ifequal docker_host "all" %}selected{% endifequal %}>ALL</option>
+                            {% for docker_host in host_list %}
+                                <option value="{{ docker_host }}" {% ifequal node docker_host %}selected{% endifequal %}>{{ docker_host }}</option>
+                            {% endfor %}
+
+                        </select>
+                    </label>
+
+                    <form id="search_form" method="get" action="" class="pull-right mail-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" id="search_input" name="keyword" placeholder="Search">
+                            <input type="text" style="display: none" name="env_type" value="{{ env_type }}">
+                            <div class="input-group-btn">
+                                <button id='search_btn' type="submit" class="btn btn-sm btn-primary">
+                                    Search
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+
+                    <form id="contents_form" name="contents_form">
+                    <table class="table table-striped table-bordered table-hover " id="editable" >
+                        <thead>
+                            <tr>
+                                {% ifequal session_role_id 2 %}
+                                    <th class="text-center"><input id="checkall" type="checkbox" class="i-checks" name="checkall" value="checkall" data-editable='false' onclick="check_all('contents_form')"></th>
+                                {% endifequal %}
+                                <th class="text-center">volume name</th>
+                            {% ifequal docker_host "all" %}
+                                <th class="text-center">容器主机</th>
+                            {% endifequal %}
+                                <th class="text-center"> Mountpoint </th>
+                                <th class="text-center"> Driver </th>
+
+                                <th class="text-center">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% load my_tag %}
+
+                        {% for volume in new_volumes  %}
+
+                            <tr class="gradeX">
+                                <td class="text-center" name="j_id" value="{{ volume.Name }}"  data-editable='false'><input name="id" value="{{ volume.Name  }}" docker_host="{{ volume.docker_host }}" type="checkbox" class="i-checks"></td>
+                                <td class="text-center"> {% tran_search_value volume.Name|truncatechars:40  keyword %}</td>
+                                {% ifequal docker_host "all" %}
+                                <td class="text-center">{{ volume.docker_host }}</td>
+                                {% endifequal %}
+                                <td title="{{ volume.Mountpoint }}" class="text-center"> {% tran_search_value volume.Mountpoint|truncatechars:40   keyword %}</td>
+                                <td class="text-center"> {% tran_search_value volume.Driver  keyword %} </td>
+
+                                <td class="text-center">
+                                    <div class="btn-group {% if forloop.last %}dropup{% endif %}">
+                                      <button type="button" class="btn btn-primary" ><a href="{% url 'tenant_edit' %}?id={{ post.id }}" style="color: whitesmoke">编辑</a></button>
+                                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="caret"></span>
+                                        <span class="sr-only">Oprate</span>
+                                      </button>
+                                      <ul class="dropdown-menu ">
+{#                                        <li><a value="{% url 'operate_docker' %}?id={{ docker.Id }}&&docker_host={{ docker.docker_host }}&&operate=start_docker"   class="operate_volume" >Start</a></li>#}
+                                        <li role="separator" class="divider"></li>
+                                        <li><a value="{% url 'docker_volume_remove' %}?volume_name={{ volume.Name }}&&docker_host={{ volume.docker_host }}"  class="operate_volume">delete</a></li>
+                                      </ul>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                   <div class="row">
+                        <div class="col-sm-6">
+                            <div class="dataTables_info" id="editable_info" role="status" aria-live="polite">
+                                Showing {{ contacts.start_index }} to {{ contacts.end_index }} of {{ p.count }} entries
+                            </div>
+                        </div>
+                        {% include 'paginator.html' %}
+                    </div>
+                   </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block self_footer_js %}
+<script type="application/javascript" src="/static/js/bootbox.js"></script>
+<script>
+    function change_env_type(ths){
+        console.log($(ths).val());
+        var new_url='{% url "docker_volume_list" %}'+"?docker_host="+$(ths).val();
+        location.href = new_url;
+    }
+
+    $(document).ready(function(){
+        $('.operate_volume').click(function(){
+            var row = $(this).closest('tr');
+            if (confirm('确定remove?')) {
+                $.get(
+                        $(this).attr('value'),
+                        {},
+                        function (data) {
+                            console.log(data);
+                            if(data=="True"){
+                                console.log(data);
+                                bootbox.alert(" sueccess",reload_page);
+                                if(operate=="delete"){
+                                    row.remove();
+                                }
+                            }else{
+
+                                bootbox.alert(" Failed"+data,reload_page);
+                            }
+                        }
+                );
+                return false
+            }
+        });
+        $('.operate_check').click(function(){
+
+            var check_array = [];
+            var docker_host  = [];
+            var info = $(this).val();
+            if (confirm('确定'+info+'?')){
+                $('tr.gradeX input:checked').each(function(){
+                    check_array.push($(this).attr('value'));
+                    docker_host.push($(this).attr("docker_host"));
+                });
+                $.get(
+                        '{% url "docker_volume_remove" %}',
+                        {volume_name: check_array.join(','),docker_host:docker_host.join(",")},
+                        function(data){
+                            if(data=="true"){
+                                $('tr.gradeX input:checked').closest('tr').remove();
+                                bootbox.alert(" success!",reload_page);
+                            }else{
+                                bootbox.alert(" failed!",reload_page);
+                            }
+
+
+                        }
+                );
+                return false;
+            }
+        })
+    });
+
+    function batch_add(){
+        var env_type = "{{ env_type }}";
+        var stag_type = "";
+        if(env_type=="all"){
+            //如果类型是all，就需要添加租户的类型
+            stag_type = "|租户类型;";
+        }
+        var dialog_info = "<p>请按照如下格式添加<br>租户名称|用户名称|用户密码|管理主机|网络|备注"+stag_type+"</p>";
+        var dialog_message =dialog_info+ '<textarea class="batch_add_text" style="margin: 0px; width: 548px; height: 272px;"></textarea>';
+
+        console.log(dialog_message);
+        bootbox.dialog({
+            title:"批量添加租户",
+            message: dialog_message,
+            buttons: {
+                "success": {
+                    "label": "<i class='icon-ok'></i> 保存",
+                    "className": "btn-sm btn-primary",
+                    "callback": function () {
+                        var batch_info = $(".batch_add_text").val();
+                        console.log(batch_info);
+                        var myForm = new FormData();
+                        myForm.append("batch_add",batch_info);
+                        myForm.append("env_type",env_type);
+                        $.ajax({
+                            url:"{% url 'batch_add_tenant' %}",
+                            type:"POST",
+                            contentType:false,
+                            data:myForm,
+                            dataType:'JSON',
+                            success:function () {
+                                bootbox.alert("添加成功",reload_page);
+                            },
+                            processData:false,
+                        });
+                    }// end call back
+                },//end success
+                "cancel": {
+                    "label": "<i class='icon-info'></i> 取消",
+                    "className": "btn-sm btn-danger",
+                    "callback":function () {
+                        console.log("??");
+                    }
+                } // end cancel ..
+            }// buttons end ..
+            });
+        // bootbox dialog end ...
+    };
+
+function tpl_add() {
+
+        var env_type = "{{ env_type }}";
+        var template_file = '<p>请下载Excel文件, 按照格式填写主机信息, 上传导入. <a href="/static/files/excels/tenant_tpl.xls">点击下载模板</a></p>';
+
+        var file_upload = "<input name='tpl_file' class='tpl_file' type='file' >";
+        var dialog_message = template_file+file_upload;
+        bootbox.dialog(
+            {
+                title:"批量添加租户",
+                message:dialog_message,
+                buttons:{
+                    "success":{
+                        "label":"<i class='icon-ok '></i>保存",
+                        "className":"btn-sm btn-primary",
+                        "callback":function () {
+                            // console.log(dialog_message);
+                            var myForm = new FormData();
+                            myForm.append("env_type",env_type);
+                            myForm.append("tpl_file",$(".tpl_file")[0].files[0]);
+                            $.ajax({
+                                url:"{% url 'batch_tpl_tenant' %}",
+                                type:"POST",
+                                contentType:false,
+                                data:myForm,
+                                dataType:'JSON',
+                                success:function () {
+                                    bootbox.alert("添加成功",reload_page);
+                                },
+                                error:function () {
+                                  bootbox.alert("添加失败",reload_page);
+                                },
+                                processData:false
+                            });// end ajax ....
+                        }// call back end
+
+                    },//end success
+                    "cancel":{
+                        "label":"<i class='icon-info'></i>取消",
+                        "className":"btn-sm btn-danger",
+                        "callback":function () {
+                            console.log("??");
+                        }
+                    }// end cancel
+                }//end buttons
+            });//end dialog ...
+
+    };
+
+</script>
+{% endblock %}

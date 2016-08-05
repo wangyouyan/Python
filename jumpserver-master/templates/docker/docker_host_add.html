@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load bootstrap %}
+{% include 'nav_cat_bar.html' %}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-10">
+            <div class="ibox float-e-margins">
+                <div id="ibox-content" class="ibox-title">
+                    <h5> 填写Docker主机信息 </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content">
+                    {% if emg %}
+                        <div class="alert alert-warning text-center">{{ emg }}</div>
+                    {% endif %}
+                    {% if smg %}
+                        <div class="alert alert-success text-center">{{ smg }}</div>
+                    {% endif %}
+                    <form id="URLForm" method="post" class="form-horizontal">
+
+
+                         {% for item in docker_host_form %}
+                                 <div class="col-sm-9">
+                                     {{ item|bootstrap_horizontal }}
+                                 </div>
+{#                             <div class="hr-line-dashed"></div>#}
+                         {% endfor %}
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-5">
+                                <button class="btn btn-success" type="button" onclick="connect_test()">连接测试</button>
+                                <button class="btn btn-white" type="submit"> 重置 </button>
+                                <button class="btn btn-primary" type="sumbit"> 提交 </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function connect_test() {
+        var host_name = $("#id_docker_host").val();
+        var base_url = $("#id_base_url").val();
+        if(host_name==""||base_url==""){
+            bootbox.alert("不能为空");
+        }else{
+            $.get("{% url 'docker_connect_test' %}",{'host_name':host_name,'base_url':base_url},function(data){
+                if(data=="ERROR"){
+                    bootbox.alert(" connect Failed ..");
+                }else{
+                    bootbox.alert("connect success ...");
+                }
+            })
+        }
+    }
+
+    var required_fields = ["id_url","id_server_name"];
+    required_fields.forEach(function(field) {
+        $('label[for="' + field + '"]').parent().addClass("required");
+    });
+
+    $('#URLForm').validator({
+        timely: 2,
+        theme: "yellow_right_effect",
+        fields: {
+            "#id_url": {
+                rule: "required",
+                tip: "输入URL",
+                ok: "",
+                msg: {required: "URL必须填写!"},
+                data: {'data-ok':"URL可以使用", 'data-msg-required': 'URL已正确'}
+            },
+            "#id_server_name": {
+                rule: "required",
+                tip: "输入服务名称",
+                ok: "",
+                msg: {required: "服务名称必须填写!"},
+                data: {'data-ok':"服务名称可以使用", 'data-msg-required': '服务名称已正确'}
+            },
+
+        },
+        valid: function(form) {
+            form.submit();
+        }
+    });
+</script>
+
+{% endblock %}
